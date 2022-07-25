@@ -1,0 +1,49 @@
+  .container h3{
+    text-align: center;
+  }
+ 
+ nav{
+    background:#2da3fd ;
+    height: 80px;
+    width: 100%;
+ }
+ label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+ }
+  nav a {
+     float: right;
+     margin: 20px; 
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .background-image{
+    position: relative;
+    background-image: url(12345.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+    .heading{
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0,0,0,0.5);
+    }  
+     .line{
+        width: 150px;
+        height: 4px;
+        background: #2da3fd;
+        margin: 5px auto;
+        border-radius: 5px;
+     }
